@@ -1,0 +1,17 @@
+---
+name: SizePlayer
+version: 0.0.1
+main: YTBJero\SizePlayer\Main
+author: YTBJero
+api:
+- 4.0.0
+
+commands:
+  size:
+    description: "Sizeplayer command"
+    permission: size.command 
+
+permissions:
+  size.command:
+    default: op
+...

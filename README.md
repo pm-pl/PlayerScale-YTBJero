@@ -1,4 +1,4 @@
-[![](https://poggit.pmmp.io/shield.state/SizePlayer)]
+[![](https://poggit.pmmp.io/shield.state/PlayerSize)]
 <div align="center">
 <h1>SizePlayer | v0.0.1<h1>
 <p>Change player size.</p>
@@ -26,30 +26,18 @@
 ## config.yml
  ```
  ---
-#   ____  _                 _      _____ _       
- # / ___|(_)_ __ ___  _ __ | | ___|  ___| |_   _ 
- # \___ \| | '_ ` _ \| '_ \| |/ _ \ |_  | | | | |
- #  ___) | | | | | | | |_) | |  __/  _| | | |_| |
- # |____/|_|_| |_| |_| .__/|_|\___|_|   |_|\__, |
- #                   |_|                   |___/ 
-# Main config of SimpleFly
-# Messages
-fly.creative: "You can't do this while in creative mode!"
-fly.on: "Fly mode is on."
-fly.off: "Fly mode is off."
-fly.other.creative: "{PLAYER} is in creative mode!"
-fly.other.on: "Fly mode of {PLAYER} is on."
-fly.other.off: "Fly mode of {PLAYER} is off."
-fly.other.not-found: "This player could not be found!"
-join.disable: "Your fly mode has been disabled when joining the server!"
-world-move.disable: "Your fly mode has been disabled when move the world!"
-damage.disable: "Your fly mode has been disabled when fighting!"
-# When players join the server fly mode will be disabled when set to true
-event.join.reset: true 
-# When the player moves the world fly mode will be turned off when set to true
-event.world-move.disable: true 
-# When the player fighting fly mode will be turned off when set to true
-event.damage.disable: true
+# Message
+use-in-game: Please use this command in game 
+permission: You don't have permission to use this command!
+usage: "Usage: /size <size> to change size, /size reset to reset size."
+max-message: Max size is {max}
+min-message: Min size is {min}
+change-size-success: You have resize to {size}
+reset-success: You have successfully reset the size!
+
+# Config 
+max-size: 5 
+min-size: 0.3
 ...
  ```
 ## Project Infomation

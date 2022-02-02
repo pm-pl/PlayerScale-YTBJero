@@ -19,8 +19,9 @@ use pocketmine\event\player\PlayerRespawnEvent;
 
 class Main extends PluginBase implements Listener{
     
-    /** @var $size */
     public $size = array();
+    
+    public $config;
     
     public function onEnable(): void
     {

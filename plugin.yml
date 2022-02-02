@@ -1,17 +1,17 @@
 ---
-name: SizePlayer
+name: PlayerScale
 version: 0.0.1
-main: YTBJero\SizePlayer\Main
+main: YTBJero\PlayerScale\Main
 author: YTBJero
 api:
 - 4.0.0
 
 commands:
-  size:
-    description: "Sizeplayer command"
-    permission: size.command 
+  scale:
+    description: "PlayerScale command"
+    permission: scale.command 
 
 permissions:
-  size.command:
+  scale.command:
     default: op
 ...

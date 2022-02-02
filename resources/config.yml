@@ -1,9 +1,9 @@
 # Message
 use-in-game: Please use this command in game 
 permission: You don't have permission to use this command!
-usage: "Usage: /size <size> to change size, /size reset to reset size."
-max-message: Max size is {max}
-min-message: Min size is {min}
+usage: "Usage: /scale <size> to change scale, /scale reset to reset size."
+max-message: Max scale is {max}
+min-message: Min scale is {min}
 change-size-success: You have resize to {size}
 reset-success: You have successfully reset the size!
 

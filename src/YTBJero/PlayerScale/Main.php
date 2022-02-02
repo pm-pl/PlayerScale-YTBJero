@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YTBJero\SizePlayer;
+namespace YTBJero\PlayerScale;
 use pocketmine\plugin\{
     PluginBase, Plugin
 };
@@ -40,14 +40,14 @@ class Main extends PluginBase implements Listener{
 
      public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool 
      {
-        if($cmd->getName() == "size")
+        if($cmd->getName() == "scale")
         {
             if(!$sender instanceof Player){
                 $sender->sendMessage($this->config->get("use-in-game"));
                 return false;
             }
 
-            if(!$sender->hasPermission("size.command"))
+            if(!$sender->hasPermission("scale.command"))
             {
                 $sender->sendMessage($this->config->get("permission"));
                 return false;

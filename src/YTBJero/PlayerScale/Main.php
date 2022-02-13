@@ -48,7 +48,7 @@ class Main extends PluginBase implements Listener{
                 return false;
             }
 
-            if(!$sender->hasPermission("scale.command"))
+            if(!$sender->hasPermission("playerscale.command"))
             {
                 $sender->sendMessage($this->config->get("permission"));
                 return false;

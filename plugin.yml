@@ -9,7 +9,7 @@ api:
 commands:
   scale:
     description: "PlayerScale command"
-    permission: scale.command 
+    permission: playerscale.command 
 
 permissions:
   scale.command:

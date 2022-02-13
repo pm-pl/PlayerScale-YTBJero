@@ -12,6 +12,6 @@ commands:
     permission: playerscale.command 
 
 permissions:
-  scale.command:
+  playerscale.command:
     default: op
 ...

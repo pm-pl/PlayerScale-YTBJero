@@ -40,9 +40,3 @@ max-size: 5
 min-size: 0.3
 ...
  ```
-## Project Infomation
-
-| Plugin Version | Pocketmine API | PHP Version | Plugin Status |
-|---|---|---|---|
-| 0.0.1 | 4.x.x | 8.0 | Completed |
- 
